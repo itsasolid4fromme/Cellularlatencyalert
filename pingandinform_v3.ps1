@@ -12,8 +12,6 @@ $soundFilePath = "C:\FUCK.wav"
 
 # Function to play a sound
 function Invoke-Sound {
-# Specify the path to your .wav file
-$soundFilePath = "C:\FUCK.wav"
 
 # Create a SoundPlayer object
 $player = New-Object System.Media.SoundPlayer
